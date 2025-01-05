@@ -1,0 +1,160 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Custom Theme */
+body {
+  background-color: #f8f9fa; /* Light Gray */
+  color: #343a40; /* Dark Gray */
+}
+
+.navbar {
+  background-color: #004085 !important; /* Deep Blue */
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.card-title {
+  color: #004085 !important; /* Primary Color */
+}
+
+.badge {
+  background-color: #ffc107; /* Accent Color */
+  color: #ffffff; /* Text Dark */
+}
+
+.btn-warning {
+  background-color: #ffc107 !important; /* Accent */
+  border: none;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800 !important; /* Darker Accent */
+}
+
+/* Independent Layouts */
+.container-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Prevent extra scrolling on the page */
+}
+
+/* Header */
+.header {
+  flex: 0 0 auto; /* Fixed height */
+  background-color: #004085; /* Primary color */
+  color: white;
+  padding: 0.5rem 1rem; /* Shorter padding for a smaller height */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header input {
+  width: 50%;
+  padding: 0.4rem; /* Adjust input size */
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1 1 auto; /* Fill the remaining height */
+  display: flex;
+  overflow: hidden; /* Prevent scrolling of the parent */
+}
+
+/* Filter Layout */
+.filter-layout {
+  flex: 0 0 300px; /* Fixed width for filter */
+  overflow-y: auto; /* Enable vertical scrolling */
+  background-color: #f8f9fa; /* Light background */
+  padding: 1rem;
+  border-right: 1px solid #dee2e6; /* Separator line */
+}
+
+.filter-layout h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #004085; /* Match header color */
+  margin-bottom: 1rem;
+}
+
+.filter-layout .form-check {
+  margin-bottom: 0.5rem; /* Spacing between filters */
+}
+
+.filter-layout .form-check-label {
+  cursor: pointer; /* Add pointer cursor for better UX */
+  font-size: 1rem; /* Slightly larger text for better readability */
+}
+
+.filter-layout .form-check-input {
+  margin-right: 0.5rem; /* Space between checkbox and label */
+}
+
+/* Paper Section */
+.paper-section {
+  flex: 1 1 auto; /* Fill remaining width */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* Prevent scrolling of the parent */
+}
+
+.paper-header {
+  flex: 0 0 auto; /* Fixed height */
+  background-color: #f8f9fa; /* Light background */
+  padding: 1rem;
+  border-bottom: 1px solid #dee2e6; /* Separator line */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.paper-layout {
+  flex: 1 1 auto; /* Fill remaining height */
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding: 1rem;
+  background-color: #ffffff; /* White background for papers */
+}
+
+
