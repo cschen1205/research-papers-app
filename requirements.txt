@@ -1,0 +1,5 @@
+scholarly
+requests
+arxiv
+beautifulsoup4
+PyPDF2

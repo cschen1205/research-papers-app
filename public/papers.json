@@ -6747,18 +6747,6 @@
         "url": "http://arxiv.org/pdf/2302.14509v2"
     },
     {
-        "title": "Evolutionary optimization of large complex problems",
-        "abstract": "",
-        "year": 2022,
-        "citation_count": 0,
-        "author": "H,ing Wang, Chaoli Sun, Jinliang Ding, Yew-soon Ong",
-        "keywords": [
-            "Evolutionary Computation",
-            "Optimization"
-        ],
-        "url": "https://link.springer.com/content/pdf/10.1007/s40747-022-00766-x.pdf"
-    },
-    {
         "title": "Jacobian Granger Causal Neural Networks for Analysis of Stationary and Nonstationary Data",
         "abstract": "Granger causality is a commonly used method for uncovering information flow and dependencies in a time series. Here we introduce JGC (Jacobian Granger Causality), a neural network-based approach to Granger causality using the Jacobian as a measure of variable importance, and propose a thresholding procedure for inferring Granger causal variables using this measure. The resulting approach performs consistently well compared to other approaches in identifying Granger causal variables, the associated time lags, as well as interaction signs. Lastly, through the inclusion of a time variable, we show that this approach is able to learn the temporal dependencies for nonstationary systems whose Granger causal structures change in time.",
         "year": 2022,

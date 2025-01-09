@@ -1,3 +1,5 @@
+// [GPT Generated] - Main App component with state management and useEffect hooks ** ALL CODE BELOW IS AUTO-GENERATED **
+
 import React, { useState, useEffect, useCallback } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
