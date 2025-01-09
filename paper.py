@@ -215,12 +215,12 @@ def update_paper_urls(file_name):
                 
 # Main Script
 if __name__ == "__main__":
-    author_name = "Yew-Soon Ong"  # Replace with the specific scholar's name
+    author_name = "***"  # Replace with the specific scholar's name
     # Scrape Metadata
     papers_metadata = scrape_scholar_profile(author_name)
     
     # [Manual Added] Manul run the below functions to process the categorizations and the meta data file
-    # cut_file("meta_Yew-Soon Ong")
+    # cut_file("meta")
     # copy_back("meta_updated", "meta_empty")
     # replace_author_join("meta_paper")
     # load_papers("meta_paper")
